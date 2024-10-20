@@ -223,15 +223,7 @@ background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
             overflow: hidden;
       }
       .features-list-icon {
-       /** border: 1px solid #8e8f99;
-        background: #f4f4fd;
-        border-radius: 4px;
-        width: 264px;
-        height: 112px;
-        display: block;
-        justify-content: center;**/
-       
-        display: flex;
+              display: flex;
         align-items: center;
         justify-content: center;
         background-color: #f4f4fd;
@@ -242,8 +234,7 @@ background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
        background-color: #f4f4fd;
     }
 
-
-   svg{
+   .features-list-icons{
     width: 64px;
     height: 64px;
    }
@@ -261,6 +252,7 @@ background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
         .features-item {
             width: calc((100% - 72px) / 4);
+            box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
         }
      .features-subtitle {
             font-weight: 500;
@@ -310,6 +302,7 @@ margin-bottom: 72px;
             border-radius: 0px 0px 4px 4px; 
             background-color: #fdf4fd; 
             border-bottom: 1px solid rgb(224, 228, 230);}
+            box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
         
 
         .taste-item-img {
@@ -336,26 +329,19 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
         }
-        .taste-icon{
-            display: flex;
-            align-items: center;
-            justify-content: center;  
-            width: 232px;
-            height: 40px;
-            margin: 8px 16px 32px 16px;
-            gap: 16px;
-        }
+       
         .taste-icon-list{
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: row;
-            gap: 16px;
+            gap: 24px;
             
         
         }
         .taste-svg-icon-item{
-         width: 40px;
+
+            width: 40px;
         height: 40px;
         }
         
@@ -365,16 +351,13 @@ color: #434455;
             display: flex;
             align-items: center;
             justify-content: center;
-           background-color: #404bbf;
-           border-radius: 50%;
+           background-color:  #4d5ae5;
+           border-radius: 50%;}
            
-        }
-        .svg-icon-seo{
-          
-            width: 16px;
-            height: 16px;
-         }
-    
+           .taste-svg-icons-link:hover,
+           .taste-svg-icons-link:focus{
+            background-color:  backgroun #404bbf; ; 
+           }
       
 
         .portfol {
