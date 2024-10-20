@@ -518,7 +518,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    .svg-icons-link:focus{
     background-color: #31d0aa;
    }
-.svg-icon-seo{
+svg .svg-icon-seo{
   
     width: 24px;
     height: 24px;
