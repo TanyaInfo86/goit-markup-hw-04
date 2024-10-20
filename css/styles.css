@@ -447,13 +447,12 @@ transform: translateY(0);
 background-color: #2e2f42;
 padding: 100px 0;
 display: flex;
-        }
-.container footer{
     display: flex;
     align-items: baseline;
         }
         .elem-van{
             margin-right: 120px;
+            border:#404bbf solid 2px;
         }
  .footer-logo {
  font-family: "Raleway", sans-serif;
@@ -478,14 +477,6 @@ letter-spacing: 0.02em;
 color: #f4f4fd; #f4f4fd
         }
 
-
-
-
-
-
-.footer-logo-color{
-    color: #f4f4fd;
-}
 .footer-icon { 
      width: 208px;
 height: 80px;
