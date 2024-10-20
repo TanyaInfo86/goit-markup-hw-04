@@ -134,7 +134,6 @@ padding-bottom: 24px;
    
     display: flex;
     gap: 40px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
@@ -145,6 +144,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
  margin: auto;
+ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .adrs-contact-link:hover, 
 .adrs-contact-link:focus{
@@ -196,7 +196,7 @@ border: none;
 border-radius: 4px;
 margin-left: auto;
 margin-right: auto;
-background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+background: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
     }
