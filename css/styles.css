@@ -370,11 +370,11 @@ color: #434455;
            background-color:  #4d5ae5;
            border-radius: 50%;}
            
-           .tast-svg-icons-link:hover,
-           .tast-svg-icons-link:focus{
+           .svg-icons-link:hover,
+           .svg-icons-link:focus{
             background-color:  backgroun #404bbf; ; 
            }
-
+           
            .svg-icon-seo-taste{
             width: 16px;
             height: 16px;
@@ -553,6 +553,7 @@ height: 40px;
    }
 .svg-icon-seo-foot{
   
-   
+    width: 24px;
+    height: 24px;
     fill:  #f4f4fd;
  }
